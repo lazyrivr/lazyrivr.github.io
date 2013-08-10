@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>{% if page.title %} {{ page.title }} | {% endif %}{% if page.section %} {{ page.section }} | {% endif %} HTML &amp; CSS for Confused Students</title>
+    <link rel="stylesheet" href="/sitecss/style.css" />
+</head>
+<body{% if page.section %} class="{{ page.section }}"{% endif %}>
+    <header>
+        <h1>HTML &amp; CSS for Confused Students</h1>
+        <nav>
+            <li><a href="/">Home</a></li>
+            <li><a href="/html/">HTML</a></li>
+            <li><a href="/css/">CSS</a></li>
+            <li><a href="/tutoring">Tutoring</a></li>
+        </nav>
+    </header>
+    
+    <main>
+    {{ content }}
+    </main>
+    
+    <footer>
+        <p>&copy; 2013 Andy Bell | Released under a CC license (TBD which one)</p>
+    </footer>
+</body>
+</html>
