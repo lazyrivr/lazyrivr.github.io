@@ -1,6 +1,7 @@
 ---
 title: Choosing an Editing Program
 section: html
+layout: default
 ---
 
 # Choosing an Editing Program
