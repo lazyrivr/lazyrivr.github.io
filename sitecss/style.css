@@ -40,6 +40,20 @@ main {
     padding: 0 15px 15px;
 }
 
+.toc {
+    float: right;
+    color: white;
+    max-width: 280px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 10px 10px;
+}
+
+p {
+    clear: right;
+}
+
 footer {
     color: white;
     text-align: center;
@@ -66,7 +80,7 @@ html {
 }
 
 .tutoring {
-    background-color: #c8d00e;
+    background-color: #959846;
 }
 
 /* ========== */
