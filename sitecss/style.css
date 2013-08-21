@@ -1,0 +1,37 @@
+/* ====== */
+/* LAYOUT */
+/* ====== */
+
+header, main, footer {
+    width: 90vw;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* ===== */
+/* COLOR */
+/* ===== */
+
+.html header {
+    background-color: #1c3177;
+    color: white;
+}
+
+.html main {
+    background-color: #8695c6;
+    color: black;
+}
+
+/* ========== */
+/* TYPOGRAPHY */
+/* ========== */
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+code {
+    font-family: 'Source Code Pro', "andale mono", sans-serif;
+    background-color: black;
+    color: #40fd5d;
+}

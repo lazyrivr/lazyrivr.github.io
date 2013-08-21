@@ -2,8 +2,12 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>{% if page.title %} {{ page.title }} | {% endif %}{% if page.section %} {{ page.section }} | {% endif %} HTML &amp; CSS for Confused Students</title>
-    <link rel="stylesheet" href="/sitecss/style.css" />
+    <title>{% if page.title %} {{ page.title }} | {% endif %}HTML &amp; CSS for Confused Students</title>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro|Open+Sans:400italic,400,700" rel="stylesheet" type="text/css" />
+    <link href="/sitecss/style.css" rel="stylesheet" type="text/css" />
+    <link href="/highlight/styles/monokai.css" rel="stylesheet" type="text/css" />
+    <script src="/highlight/highlight.pack.js"></script>
 </head>
 <body{% if page.section %} class="{{ page.section }}"{% endif %}>
     <header>
@@ -12,7 +16,7 @@
             <li><a href="/">Home</a></li>
             <li><a href="/html/">HTML</a></li>
             <li><a href="/css/">CSS</a></li>
-            <li><a href="/tutoring">Tutoring</a></li>
+            <li><a href="/tutoring/">Tutoring</a></li>
         </nav>
     </header>
     
