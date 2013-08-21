@@ -45,7 +45,7 @@ Signing up for a tutoring session is pretty easy. Just do the following steps:
 2. Click on "Tutor Request" in the left-hand sidebar.
 3. Sign in with your BYU-Idaho username and password.
 4. Click on "Search Availability" on the left side of the page.
-5. On the left you'll see the search criteria. First, choose "Tutoring Center." Then select the class. Then click search!
+5. On the left you'll see the search criteria. First, choose "TUTORING." Then select the class/section. Then click search!
 6. Click on one of the available time slots that works for you.
 7. *This is important!* In the comments field, enter your questions or what you're struggling with. This helps me prepare for the appointment better!
 8. Click save and look for the appointment confirmation in your email!
