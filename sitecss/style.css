@@ -25,13 +25,19 @@ header {
 
 header nav ul {
     list-style: none;
-    height: 30px;
-    margin: 0 auto;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 header nav ul li {
-    float: left;
-    margin: 0 20px;
+    display: inline;
+}
+
+header nav ul li a {
+    display: inline-block;
+    padding: 10px;
 }
 
 main {
