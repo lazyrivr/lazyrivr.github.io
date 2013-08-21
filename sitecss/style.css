@@ -9,9 +9,34 @@ body {
     color: black;
 }
 
-/* ===== */
-/* COLOR */
-/* ===== */
+header {
+    color: white;
+    text-align: center;
+}   
+
+header nav ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+header nav ul li {
+    float: left;
+    margin: 0 20px;
+}
+
+main {
+    clear: left;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 0 15px 15px;
+}
+
+footer {
+    color: white;
+}
+
+/* ============== */
+/* SECTION COLORS */
+/* ============== */
 
 html {
     background-color: #7b1d1d;
@@ -25,23 +50,14 @@ html {
     background-color: #1d621d;
 }
 
-header {
-    color: white;
-}
-
-main {
-    background-color: rgba(255, 255, 255, 0.4);
-}
-
-footer {
-    background-color: rgba(0,0,0, 0.2);
-    color: white;
-}
-
 /* ========== */
 /* TYPOGRAPHY */
 /* ========== */
 
 html {
     font-family: 'Open Sans', sans-serif;
+}
+
+small {
+    display: none;
 }
