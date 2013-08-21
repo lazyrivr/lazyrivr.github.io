@@ -14,6 +14,7 @@ section: html
 <li><a href="#adobe_edge_code">Adobe Edge Code</a></li>
 <li><a href="#textwrangler">TextWrangler (Mac only)</a></li>
 <li><a href="#notepad">Notepad++ (Windows only)</a></li>
+<li><a href="other_editors">Other Editors</a></li>
 </ul>
 </aside>
 
