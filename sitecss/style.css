@@ -2,24 +2,40 @@
 /* LAYOUT */
 /* ====== */
 
-header, main, footer {
+body {
     width: 90vw;
     max-width: 960px;
     margin: 0 auto;
+    color: black;
 }
 
 /* ===== */
 /* COLOR */
 /* ===== */
 
-.html header {
+html {
+    background-color: #7b1d1d;
+}
+
+.html {
     background-color: #1c3177;
+}
+
+.css {
+    background-color: #1d621d;
+}
+
+header {
     color: white;
 }
 
-.html main {
-    background-color: #8695c6;
-    color: black;
+main {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+footer {
+    background-color: rgba(0,0,0, 0.2);
+    color: white;
 }
 
 /* ========== */
@@ -28,10 +44,4 @@ header, main, footer {
 
 html {
     font-family: 'Open Sans', sans-serif;
-}
-
-code {
-    font-family: 'Source Code Pro', "andale mono", sans-serif;
-    background-color: black;
-    color: #40fd5d;
 }

@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html{% if page.section %} class="{{ page.section }}"{% endif %}>
 <head>
     <meta charset="utf-8" />
     <title>{% if page.title %} {{ page.title }} | {% endif %}HTML &amp; CSS for Confused Students</title>
     <link href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.css" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro|Open+Sans:400italic,400,700" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700" rel="stylesheet" type="text/css" />
     <link href="/sitecss/style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="http://yandex.st/highlightjs/7.3/styles/monokai.min.css">
 <script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
 </head>
-<body{% if page.section %} class="{{ page.section }}"{% endif %}>
+<body>
     <header>
         <h1>HTML &amp; CSS for Confused Students</h1>
         <nav>
