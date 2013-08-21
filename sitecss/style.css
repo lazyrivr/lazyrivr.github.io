@@ -9,6 +9,14 @@ body {
     color: black;
 }
 
+a {
+    color: white;
+}
+
+a:hover {
+    color: #ddd;
+}
+
 header {
     color: white;
     text-align: center;
