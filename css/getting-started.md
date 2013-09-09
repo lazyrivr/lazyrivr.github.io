@@ -10,7 +10,7 @@ By default, HTML looks really ugly. White background, black text, blue links, al
 
 ## The Parts of CSS
 
-*This part is based on [Brother Judkins' "Anatomy of a CSS Rule](http://brotherjudkins.com/code/css-anatomy.html). Take a look at it for another couple of examples of CSS.*
+*This part is based on [Brother Judkins' "Anatomy of a CSS Rule"](http://brotherjudkins.com/code/css-anatomy.html). Take a look at it for another couple of examples of CSS.*
 
 Let's break down how CSS is written by taking a look at a couple of example pieces.
 
